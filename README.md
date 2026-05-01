@@ -42,7 +42,7 @@ make 00_check
 ```
 .
 ├── README.md                    # Este archivo
-├── Makefile                     # Sistema de构建统一
+├── Makefile                     # Sistema de compilación unificado
 ├── .gitignore                   # Archivos ignorados por git
 ├── common/                      # Utilidades compartidas
 │   ├── cuda_utils.cu            # Funciones auxiliares CUDA
@@ -338,7 +338,7 @@ Aplicaciones completas integradoras.
 
 1. **Orden**: Sigue las lecciones en orden. Cada una construye sobre la anterior.
 2. **Experimenta**: Modifica los ejemplos, cambia parámetros, rompe cosas.
-3. **Mide**: Siempre usa `cudaEvent_t` o `nvprof` para medir性能.
+3. **Mide**: Siempre usa `cudaEvent_t` o `nvprof` para medir rendimiento.
 4. **Lee el código**: Analiza cada línea, pregunta por qué.
 5. **Implementa**: Después de cada tema, intenta resolver un problema Similar.
 

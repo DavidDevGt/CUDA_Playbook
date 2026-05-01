@@ -3,7 +3,7 @@
  * @brief Operaciones atómicas - Compare and Swap (CAS)
  *
  * atomicCAS() (Compare And Swap) permite implementar operaciones
- * atómicas más complejas como fetch-and-add,锁, etc.
+ * atómicas más complejas como fetch-and-add, bloqueo, etc.
  *
  * Caso de uso: actualización condicional thread-safe.
  *
