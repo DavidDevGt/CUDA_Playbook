@@ -1,0 +1,103 @@
+# ========================================
+# CUDA Learning Repository - .gitignore
+# ========================================
+
+# Build directory
+build/
+*/build/
+**/build/
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.cubin
+*.cudasm
+*.fatbin
+
+# Generated files
+*.ptx
+*.i
+*.ii
+*.gch
+
+# CUDA compiler intermediate files
+*.orig
+*.rej
+
+# NVCC verbose output
+*.linkinfo
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.tmp
+
+# IDE/VSCode
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Profiling data
+*.nvvp
+*.nvprof
+
+# Core dumps
+core
+core.*
+
+# Backup files
+*.bak
+*.backup
+
+# Logs
+*.log
+
+# Generated data files
+*.csv
+
+# Python cache (if any Python files added)
+__pycache__/
+*.pyc
+
+# CMake (if added later)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Nsight
+*.ncu-rep
+*.ncu-kernel-rep
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# Compiled executables in root and subdirectories
+benchmark_suite
+host_to_device
+image_convolution
+reduction
+scan_prefix_sum
+shared_memory_basic
+test_sum
+check_cuda
+vector_mult
+
+# Additional executables without extensions
+*.bin
