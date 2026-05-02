@@ -1,4 +1,4 @@
-# Aprende CUDA desde Cero
+# Aprender CUDA desde Cero
 
 Repositorio completo y estructurado para aprender programación CUDA, desde los conceptos más básicos hasta técnicas avanzadas de optimización.
 
