@@ -1,3 +1,7 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![CUDA Version](https://img.shields.io/badge/CUDA-11.0%2B-green.svg)
+![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-blue.svg)
+
 # Aprender CUDA desde Cero
 
 Repositorio completo y estructurado para aprender programación CUDA, desde los conceptos más básicos hasta técnicas avanzadas de optimización.
